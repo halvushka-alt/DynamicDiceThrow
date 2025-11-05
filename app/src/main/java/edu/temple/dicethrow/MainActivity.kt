@@ -8,7 +8,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 
-
 /*
 Our DieThrow application has been refactored to move the dieRoll() logic
 into the ViewModel instead of the Fragment.
@@ -91,8 +90,6 @@ class MainActivity : AppCompatActivity(), ButtonFragment.ButtonInterface {
 
     }
 
-
-
     /* TODO 2: switch fragments if die rolled and in portrait (no need to switch fragments if Landscape)
         */
 
@@ -101,6 +98,5 @@ class MainActivity : AppCompatActivity(), ButtonFragment.ButtonInterface {
     override fun buttonClicked() {
 
     }
-
 
 }
